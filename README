@@ -1,0 +1,10 @@
+Connect 4 program with AI that uses the minimax algorithm with alpha-beta pruning.
+
+Code Structure:
+    main.cpp - Controls file input and game loop
+    board.hpp - Holds data structure for board and functions for interacting with it.
+    minimax.hpp - Holds agent and minimax algorithm for finding best solution.
+
+Type 'make' in the console to compile. Run the executable using one of the following commands:
+    Interactive: ./maxconnect4 interactive [input_file] [computer-next/human-next] [depth]
+    One-move: ./maxconnect4 one-move [input_file] [output_file] [depth]
